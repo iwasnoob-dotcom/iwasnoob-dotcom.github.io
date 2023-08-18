@@ -2,6 +2,10 @@ body {
   background: lightblue;
 }
 
+button.upload:hover{
+  background-color: yellow;
+}
+
 p#greet{
   color: blue;
 }

@@ -7,31 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/style.css">
   <script type='application/javascript' src="/js/script.js"></script>
-
 </head>
 
 <body>
-  <div class="bagian_satu">
-    <p id="greet">Hello world!</p>
-    <button type="button" onclick="keyIn()">Click Me!</button>
-  </div>
-
-  <div class="form-body">
-    <form action="" class="form-body-begin">
-      <label for="name-section">Name</label> <br>
-      <input type="text" name="name-section" placeholder="Insert Name"> <br>
-      <button type="submit">Submit!</button>
-    </form>
-
-
-  </div>
-
 
   <div>
-    <p>Hello world</p>
-
     <div class="form-table">
-      <table border="1px">
+      <table border="0px">
 
         <tr>
           <td>
@@ -64,21 +46,30 @@
           </td>
         </tr>
         <tr>
-          <td colspan="2">
-            <button type="submit" onclick="submit();">Submit</button>
+          <td align="center" colspan="2">
+            <button class="upload" type="submit" onclick="submit();">Submit</button>
           </td>
         </tr>
 
       </table>
     </div>
 
-    <button onclick="clickme()">Click me to show image!</button>
   </div>
 
-  <div>
-    <p>Hello There!</p>
+
+
+  <div class="browse">
+    <div class="search-bar">
+      <div class="search-input">
+        <input type="text" id="item-to-search" placeholder="Search">
+        <a href="https://www.google.com">
+          <button class="search-button" onclick="onClickSearch();">Search</button>
+        </a>
+      </div>
+    </div>
   </div>
 
 </body>
+
 
 </html>

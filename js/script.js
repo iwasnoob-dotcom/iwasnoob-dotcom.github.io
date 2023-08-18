@@ -18,3 +18,9 @@ function submit() {
   return alert(s);
 
 }
+
+
+function onClickSearch() {
+  const item = document.getElementById("item-to-search").value;
+  return location.href(`https://google.com/search?q= ${item}`);
+}
