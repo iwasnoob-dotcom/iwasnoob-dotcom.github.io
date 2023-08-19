@@ -22,5 +22,5 @@ function submit() {
 
 function onClickSearch() {
   const item = document.getElementById("item-to-search").value;
-  return location.href(`https://google.com/search?q= ${item}`);
+  return location.href != undefined ? location.href(`https://google.com/search?q= ${item}`) : false;
 }
