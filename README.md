@@ -1,2 +1,2 @@
 # Basic HTML Website
-[Live Preview Goes Here](https://iwasnoob-dotcom.github.io/html/)
+[Live Preview Goes Here](https://iwasnoob-dotcom.github.io/)
