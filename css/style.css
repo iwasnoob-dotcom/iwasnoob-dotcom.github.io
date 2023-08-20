@@ -5,9 +5,13 @@ body {
 table.table{
 padding: 10px;
 border: 5px solid;
+
 }
-tr{
+
+td{
+  border: 2px solid;
 }
+
 button.upload:hover{
   background-color: yellow;
 }

@@ -13,61 +13,66 @@
   <div>
     <div class="form-table">
       <table class="table">
+        <thead>
+          <th colspan="2px">
+            Data Diri
+          </th>
+        </thead>
+        <tbody class="table-body">
+          <tr>
+            <td>
+              <label for="nama">Name</label>
+            </td>
+            <td>
+              <input name="nama" type="text" placeholder="Insert Name">
+            </td>
+          </tr>
 
-        <tr>
-          <td>
-            <label for="nama">Name</label>
-          </td>
-          <td>
-            <input name="nama" type="text" placeholder="Insert Name">
-          </td>
-        </tr>
+          <tr>
+            <td>
+              <label for="umur">Age</label>
+            </td>
+            <td>
+              <input type="number" name="umur">
+            </td>
+          </tr>
 
-        <tr>
-          <td>
-            <label for="umur">Age</label>
-          </td>
-          <td>
-            <input type="number" name="umur">
-          </td>
-        </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+              <select name="" id="jenis_kelamin">
+                <option value="Jenis Kelamin">none</option>
+                <option value="">Pria</option>
+                <option value="">Wanita</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Pendidikan</td>
+            <td>
+              <input type="radio" name="pendidikan">SD</input>
+              <label for="pendidikan"></label>
 
-        <tr>
-          <td>Jenis Kelamin</td>
-          <td>
-            <select name="" id="jenis_kelamin">
-              <option value="Jenis Kelamin">none</option>
-              <option value="">Pria</option>
-              <option value="">Wanita</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>Pendidikan</td>
-          <td>
-            <input type="radio" name="pendidikan">SD</input>
-            <label for="pendidikan"></label>
+              <input type="radio" name="pendidikan">SMP</input>
+              <label for="pendidikan"></label>
 
-            <input type="radio" name="pendidikan">SMP</input>
-            <label for="pendidikan"></label>
-
-            <input type="radio" name="pendidikan">SMA</input>
-            <label for="pendidikan"></label>
-          </td>
-        </tr>
-        <tr>
-          <td class="comment-td" colspan="2">
-            <textarea name="comment" id="comment-section" cols="20" rows="5" placeholder="About you"></textarea>
-          </td>
-        </tr>
-        <tr>
-          <td align="center" colspan="2">
-            <button class="upload" type="submit" onclick="submit();">Submit</button>
-          </td>
-        </tr>
+              <input type="radio" name="pendidikan">SMA</input>
+              <label for="pendidikan"></label>
+            </td>
+          </tr>
+          <tr>
+            <td class="comment-td" colspan="2">
+              <textarea name="comment" id="comment-section" cols="20" rows="5" placeholder="About you"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" colspan="2">
+              <button class="upload" type="submit" onclick="submit();">Submit</button>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
-
   </div>
 
   <div class="browse">
