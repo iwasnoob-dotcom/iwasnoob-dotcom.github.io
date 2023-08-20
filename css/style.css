@@ -2,6 +2,12 @@ body {
   background: lightblue;
 }
 
+table.table{
+padding: 10px;
+border: 1px solid;
+}
+tr{
+}
 button.upload:hover{
   background-color: yellow;
 }
@@ -9,3 +15,8 @@ button.upload:hover{
 p#greet{
   color: blue;
 }
+
+td.comment-td{
+  align: center;
+}
+

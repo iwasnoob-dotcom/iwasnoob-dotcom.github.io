@@ -6,14 +6,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/style.css">
-  <script type='application/javascript' src="/js/script.js"></script>
 </head>
 
 <body>
 
   <div>
     <div class="form-table">
-      <table border="0px">
+      <table class="table">
 
         <tr>
           <td>
@@ -34,15 +33,31 @@
         </tr>
 
         <tr>
+          <td>Jenis Kelamin</td>
           <td>
-            <label for="kelamin">Gender</label>
+            <select name="" id="jenis_kelamin">
+              <option value="Jenis Kelamin">none</option>
+              <option value="">Pria</option>
+              <option value="">Wanita</option>
+            </select>
           </td>
+        </tr>
+        <tr>
+          <td>Pendidikan</td>
           <td>
-            <input type="radio" name="kelamin">
-            <label for="pria">Pria</label>
+            <input type="radio" name="pendidikan">SD</input>
+            <label for="pendidikan"></label>
 
-            <input type="radio" name="kelamin">
-            <label for="wanita">Wanita</label>
+            <input type="radio" name="pendidikan">SMP</input>
+            <label for="pendidikan"></label>
+
+            <input type="radio" name="pendidikan">SMA</input>
+            <label for="pendidikan"></label>
+          </td>
+        </tr>
+        <tr>
+          <td class="comment-td" colspan="2">
+            <textarea name="comment" id="comment-section" cols="20" rows="5" placeholder="About you"></textarea>
           </td>
         </tr>
         <tr>
@@ -50,7 +65,6 @@
             <button class="upload" type="submit" onclick="submit();">Submit</button>
           </td>
         </tr>
-
       </table>
     </div>
 
@@ -67,6 +81,8 @@
       </div>
     </div>
   </div>
+
+  <script type='application/javascript' src="/js/script.js"></script>
 
 </body>
 

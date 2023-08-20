@@ -14,7 +14,7 @@ function clickme() {
 }
 
 function submit() {
-  const s = document.getElementsByTagName("button");
+  const s = document.getElementsByClassName("upload");
   return alert(s);
 
 }
