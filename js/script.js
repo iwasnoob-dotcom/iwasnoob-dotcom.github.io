@@ -1,8 +1,3 @@
-function keyIn() {
-  alert('Zawoorldo');
-}
-
-
 function clickme() {
   const img = document.createElement("img");
   img.src = "/res/img/wallhaven-orange_sun_1920x1080.png";
@@ -23,5 +18,4 @@ function onClickSearch() {
   const item = document.getElementById("item-to-search").value;
   const searchTool = `https://google.com/search?q=${item}`;
   window.location = searchTool;
-
 }

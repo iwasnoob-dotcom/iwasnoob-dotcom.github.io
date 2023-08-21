@@ -2,14 +2,62 @@ body {
   background: lightblue;
 }
 
+/* Here is the dropdown navigation */
+#container{
+  margin: 0 auto;
+}
+nav{
+  margin: 50px;
+  background-color:white;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li{
+  display: inline block;
+  background-color:white;
+
+}
+
+nav a{
+  display: block;
+  padding: 0 10px;
+  color: #000;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:#FFF;
+  background-color: black;
+}
+
+nav ul ul{
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+nav ul:hover > ul{
+  display:inherit;
+}
+
 table.table{
 padding: 10px;
 border: 5px solid;
 
 }
-
 td{
   border: 2px solid;
+}
+td.comment-td{
+  text-align: center;
 }
 
 button.upload:hover{
@@ -20,7 +68,4 @@ p#greet{
   color: blue;
 }
 
-td.comment-td{
-  align: center;
-}
 
